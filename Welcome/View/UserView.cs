@@ -50,8 +50,10 @@ namespace Welcome.View
             Console.WriteLine("+----------------------+------------------------+");
             Console.WriteLine("\n");
         }
-
-        
+        public void DisplayError()
+        {
+            throw new Exception("ТЕКСТ НА ГРЕШКАТА");
+        }
 
     }
 }
