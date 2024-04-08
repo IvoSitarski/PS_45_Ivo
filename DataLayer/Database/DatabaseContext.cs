@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Database
 {
-    internal class DatabaseContext:DbContext
+    public class DatabaseContext:DbContext
     {
         public DbSet<DatabaseUser> Users { get; set; }
         public DbSet<LogEntry> LogEntries { get; set; }
